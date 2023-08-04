@@ -1,6 +1,6 @@
 # React Todo App
 
-![React Todo App](todo-app-screenshot.png)
+![React Todo App](./public/download.png)
 
 The React Todo App is a simple web application built using React.js that allows users to manage and keep track of their tasks and to-do items. This app provides a user-friendly interface for adding, editing, and deleting tasks, as well as marking them as completed.
 
