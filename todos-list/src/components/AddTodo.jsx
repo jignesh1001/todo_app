@@ -12,7 +12,7 @@ const AddTodo = ({addTodo}) => {
     }
   return (
     <div className="container">
-        <h3 className="text-center fs-2">Add a Todo</h3>
+        <h3 className="text-center fs-2 my-4">Add a Todo</h3>
         <form onSubmit={submit}>
   <div className="mb-3">
     <label htmlFor="title" className="form-label">Todo Title</label>

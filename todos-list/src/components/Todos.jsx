@@ -6,7 +6,7 @@ const Todos = (props) => {
     minHeight : "70vh",
   }
   return (
-    <div className='container my-4' style={myStyle}>
+    <div className='container my-5' style={myStyle}>
       <h3 className='text-center fs-2 my-4'>Todos List</h3><hr />
       {
         props.todos.length === 0? <div className='text-center fs-4'>No todos to display</div>: 
