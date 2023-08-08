@@ -1,0 +1,6 @@
+<Header title = "MyTodoList" searchBar={false } name = "CodeWithLove"/>
+    
+    <AddTodo addTodo = {addTodo}/>
+        <Todos todos = {todos} onDelete = {onDelete}/>
+        <About />
+    <Footer/>

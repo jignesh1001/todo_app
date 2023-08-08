@@ -8,7 +8,10 @@ const AddTodo = ({addTodo}) => {
         if(!title || !desc){
             alert("Title or Description is missing")
         }
-       addTodo(title,desc)
+        else
+       {addTodo(title,desc)
+       setTitle("")
+       setDesc("")}
     }
   return (
     <div className="container">
